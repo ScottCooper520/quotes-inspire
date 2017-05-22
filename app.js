@@ -36,7 +36,7 @@ MongoClient.connect(dbUrl, (err, database) => {
 	// app.listen(3000, () => {
 	// console.log('listening on 3000');
 	// Use 5000 for heroku?
-	app.listen(5000, () => {
+	app.listen(process.env.PORT || 5000, () => {
 	console.log('listening on 5000');
 	});
 });
