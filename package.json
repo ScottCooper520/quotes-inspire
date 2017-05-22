@@ -1,0 +1,28 @@
+{
+  "name": "ex_scott",
+  "version": "1.0.0",
+  "description": "Just a test project with node and mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "engines": {
+    "node": "6.10.3"
+  },
+  "author": "scott",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "heroku"
+  ]
+}

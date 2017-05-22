@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Node/Mongo App</title>
+  <link rel="stylesheet" type="text/css" href="styles/myStyle.css">
+</head>
+<body>
+  Enter a name and related quote, then submit to database:
+<form action="/quotes" method="POST">
+  <input type="text" placeholder="name" name="name">
+  <input type="text" placeholder="quote" name="quote">
+  <button type="submit">Submit</button>
+</form>
+<div id="clientDivButton">
+  <button type="button" onclick="showMessage('Message sent from index via method. Server data:')">Click Me</button> 
+  <!-- Dynamic html added here -->
+</div>
+<div id="clientDivData">
+  <!-- Dynamic data goes here -->
+</div>
+</body>
+<script>
+  alert("Jerry, Hello");
+</script>
+<!-- Third party scripts -->
+<script src="thirdparty/jquery-3.1.1.min.js"></script>
+<!-- Custom scripts -->
+<script src="javascripts/clientApp.js"></script>
+</html>
